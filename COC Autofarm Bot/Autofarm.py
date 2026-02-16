@@ -3,10 +3,9 @@ import time
 
 coclogo=pyautogui.locateOnScreen("coc.png",confidence=0.9)
 pyautogui.click(coclogo)
-
 start=time.time()
 while True:
-    if pyautogui.pixelMatchesColor(378,809,(221,208,180)):
+    if pyautogui.pixelMatchesColor(378,809,(252,237,205),tolerance=10):
         pyautogui.click(378,809)
         time.sleep(0.5)
         match=pyautogui.locateOnScreen("findamatch.png",confidence=0.9)
@@ -14,7 +13,8 @@ while True:
         time.sleep(0.5)
         attack=pyautogui.locateOnScreen("attack.png",confidence=0.9)
         pyautogui.click(attack)
-    elif pyautogui.pixelMatchesColor(967,831,(66,39,10)):
+        time.sleep(2)
+    elif pyautogui.pixelMatchesColor(967,831,(66,39,10),tolerance=10):
             pyautogui.click(967,831)
             for i in range(0,4):
                     pyautogui.click(716,499)
@@ -22,7 +22,7 @@ while True:
                     pyautogui.click(1003,347)
             for i in range(0,3):
                     pyautogui.click(1206,490)
-            if pyautogui.pixelMatchesColor(632,833,(81,41,31)):
+            if pyautogui.pixelMatchesColor(632,833,(93,47,35),tolerance=10):
                 pyautogui.click(632,833)
                 pyautogui.moveTo(430,487)
                 pyautogui.dragTo(872,165,2,pyautogui.easeInQuad,button='left')
@@ -51,8 +51,9 @@ while True:
             time.sleep(0.2)
             pyautogui.click(881,819)
     else:
+        time.sleep(2)
         end=time.time()
-        if pyautogui.pixelMatchesColor(1447,736,(173,176,171)):
+        if pyautogui.pixelMatchesColor(1447,736,(197,201,195),tolerance=10):
                     end=pyautogui.locateOnScreen("endbattle.png",confidence=0.9)
                     pyautogui.click(end)
                     time.sleep(0.5)
