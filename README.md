@@ -1,7 +1,11 @@
-**All demonstrations and tutorials shown are for educational and research purposes only.**
+## Disclaimer
 
-**I DO NOT HOLD THE RESPONSIBILITY IF YOUR ID GETS BANNED, SINCE IT'S UNFAIR TO USE AUTOMATION IN CLASH OF CLANS**
+**This project is created strictly for educational and research purposes to demonstrate concepts such as automation, computer vision, scripting, and task scheduling.**
 
-**IF YOU STILL WANT TO TRY THIS BOT ONLY WORKS FOR TH 11 AND ABOVE SET YOUR ARMY FULL OF EBARBS AND EARTHQUAKE SPELLS**
+**This project is NOT affiliated with, endorsed by, or associated with Supercell or Clash of Clans in any way.**
 
-**YOU CAN UPDATE THE BOT AS YOU WISH**
+**Using automation tools in online games may violate the game's Terms of Service and can result in permanent account suspension or bans.**
+
+**The author does not encourage cheating or unfair gameplay and is not responsible for any misuse, damages, or account penalties resulting from the use of this project.**
+
+**If you choose to use or modify this project, you do so at your own risk.**
